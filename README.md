@@ -1,3 +1,8 @@
+# Description of the AI Tutor System:
+An AI Tutor is an intelligent software system that monitors a student's learning 
+activities and provides customized study materials, quizzes, and feedback. It 
+continuously learns from student interactions and adapts its recommendations 
+accordingly.
 # Task 1: PEAS Specification
 Performance Measures:
 1. Learning outcome improvement rate (pre-test vs. post-test score gain per 
