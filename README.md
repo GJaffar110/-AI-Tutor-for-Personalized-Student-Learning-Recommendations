@@ -50,6 +50,3 @@ replacing one-size-fits-all curricula with a truly personalized learning path.
 | Dynamism       | Dynamic             |
 | Continuity     | Continuous          |
 
----
-
-## Utility Function
