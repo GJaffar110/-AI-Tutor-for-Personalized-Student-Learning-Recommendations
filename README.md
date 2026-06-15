@@ -17,19 +17,27 @@ exercises that match the student's current knowledge gap).
 Actuators:
 • Content delivery engine (renders text lessons, videos, and interactive 
 exercises).
+
 • Recommendation engine (selects and sequences next learning modules).
+
 • Feedback generator (provides written hints, explanations, and 
 encouragement messages).
+
 • Progress dashboard updater (updates student and teacher-facing reports.
+
 • Notification system (sends reminders, alerts, and motivational prompts via 
 email or app).
+
 Sensors:
 • Response input analyzer (captures student answers, response time, and 
 error patterns).
+
 • Clickstream tracker (monitors navigation behavior, time spent per page, and 
 scroll depth).
+
 • Quiz and assessment parser (reads scores and identifies incorrect answer 
 patterns).
+
 • Student profile reader (accesses historical performance data, learning style 
 tags, and grade level).
 • Natural language input processor (interprets open-ended typed questions 
