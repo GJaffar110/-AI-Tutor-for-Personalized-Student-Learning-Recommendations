@@ -1,44 +1,55 @@
-# Description of the AI Tutor System:
-An AI Tutor is an intelligent software system that monitors a student's learning 
-activities and provides customized study materials, quizzes, and feedback. It 
-continuously learns from student interactions and adapts its recommendations 
-accordingly.
-# Task 1: PEAS Specification
-Performance Measures:
-1. Learning outcome improvement rate (pre-test vs. post-test score gain per 
-student).
-2. Student engagement duration (average time-on-task per session).
-3. Concept mastery accuracy (percentage of topics marked proficient within a 
-set timeframe).
-4. Adaptive recommendation precision (percentage of recommended 
-exercises that match the student's current knowledge gap).
-5. Dropout/disengagement rate reduction compared to a non-adaptive# -AI-Tutor-for-Personalized-Student-Learning-Recommendations
+# AI Tutor — Personalized Student Learning Recommendation System
 
-Actuators:
-• Content delivery engine (renders text lessons, videos, and interactive 
-exercises).
+A formal AI system specification for an intelligent tutoring agent designed to
+deliver adaptive, personalized learning experiences to students across subjects
+and grade levels.
 
-• Recommendation engine (selects and sequences next learning modules).
 
-• Feedback generator (provides written hints, explanations, and 
-encouragement messages).
+## Overview
 
-• Progress dashboard updater (updates student and teacher-facing reports.
+This project defines the architecture and behavioral specification of an AI Tutor
+agent using the PEAS framework and task environment analysis based on Russell &
+Norvig's Artificial Intelligence: A Modern Approach (Chapter 2).
 
-• Notification system (sends reminders, alerts, and motivational prompts via 
-email or app).
+The AI Tutor dynamically adapts its content recommendations based on each
+student's knowledge state, engagement patterns, and historical performance —
+replacing one-size-fits-all curricula with a truly personalized learning path.
 
-Sensors:
-• Response input analyzer (captures student answers, response time, and 
-error patterns).
 
-• Clickstream tracker (monitors navigation behavior, time spent per page, and 
-scroll depth).
+## Features
 
-• Quiz and assessment parser (reads scores and identifies incorrect answer 
-patterns).
+- Personalized content recommendations based on individual knowledge gaps
+- Real-time student knowledge tracing using quiz and interaction data
+- Adaptive difficulty scaling across lessons and exercises
+- Multi-stakeholder support (students, teachers, and parents)
+- Natural language question handling for open-ended student queries
+- Progress tracking with detailed performance dashboards
+- Engagement monitoring via clickstream and session analysis
 
-• Student profile reader (accesses historical performance data, learning style 
-tags, and grade level).
-• Natural language input processor (interprets open-ended typed questions 
-from students).
+
+
+## PEAS Summary
+
+| Component           | Description                                                  |
+|---------------------|--------------------------------------------------------------|
+| Performance Measure | Score improvement rate, engagement duration, mastery accuracy|
+| Environment         | Digital e-learning platform (web & mobile)                   |
+| Actuators           | Recommendation engine, content delivery, feedback generator  |
+| Sensors             | Answer analyzer, quiz parser, clickstream tracker, NLP input |
+
+---
+
+## Environment Classification
+
+| Dimension      | Classification      |
+|----------------|---------------------|
+| Observability  | Partially Observable|
+| Agents         | Multi-agent         |
+| Determinism    | Stochastic          |
+| Episodicity    | Sequential          |
+| Dynamism       | Dynamic             |
+| Continuity     | Continuous          |
+
+---
+
+## Utility Function
